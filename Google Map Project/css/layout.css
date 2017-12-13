@@ -1,3 +1,5 @@
+
+*{ margin: 0; padding: 0}
 html,body{
     height: 100%;
     overflow: hidden;
@@ -10,10 +12,11 @@ html,body{
     display: flex;
 }
 #create_map_wrap{
+
     transition: .4s;
     bottom: 0px;
     height: 100%;
-    left: 0px;
+    left: 250px;
     position: absolute;
     right: 0px;
 }
@@ -34,7 +37,7 @@ html,body{
     background: #000000;
     color: #ffffff;
     height: 100%;
-    width: 200px;
+    width: 250px;
 }
 .menus_icon_Wrap{
     width: 25px;
@@ -62,4 +65,52 @@ html,body{
 .menus_icon_Wrap span:before{
     top: auto;
     bottom: 4px;
+}
+.menus_title{
+    height: 50px;
+    font-size: 20px;
+    text-align: left;
+    text-indent: 35px;
+    line-height: 50px;
+
+}
+.menus_serach_bar{
+    width: 100%;
+    overflow: hidden;
+    background: #ffffff;
+}
+.menus_serach_bar input{
+
+    border: 0px;
+    float: left;
+    text-indent: 20px;
+    height: 24px;
+    margin: 12px 15px;
+}
+.menus_serach_btn{
+    display: block;
+    float: left;
+    border: 0px;
+    margin: 12px 5px;
+
+
+
+    width: 24px;
+    height: 24px;
+    background: url(../images/search.png);
+    background-size: 72px 24px;
+}
+#pano {
+    width: 200px;
+    height: 200px;
+}
+.search_btn{
+
+}
+.hidemenu{
+    transform: translate(-250px);
+}
+.hidemenu #create_map_wrap{
+    transition-delay: .4s;
+    width: 100%
 }
