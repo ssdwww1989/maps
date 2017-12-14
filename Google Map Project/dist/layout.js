@@ -2,12 +2,17 @@
 
 
 
+'use strict';
 
 var ViewModel = function(){
     var map;
     var self = this;
-    self.markers = ko.observableArray([]);
-    this.placeMarkers = ko.observableArray([]);
+
+    self.markers =  ko.observableArray();
+
+
+
+    self.currentIndex =ko.observable('');
    var  center={lat: 39.9127929, lng: 116.3758218};
     map = new google.maps.Map(document.getElementById('create_map'), {
         center:center,
@@ -46,17 +51,16 @@ var ViewModel = function(){
             query:title
         },function(results,status){
             if(status === google.maps.places.PlacesServiceStatus.OK){
-               // console.log(results[0])
-              createMaker(results[0],i)
-
+              createMaker(results[0]);
             }
-        })
 
+        })
     }
 
 
+
     //创建标记
-    function createMaker(locaiton,showid){
+    function createMaker(locaiton){
         var marker = new google.maps.Marker({
             position:locaiton.geometry.location,
             title: locaiton.name,
@@ -66,18 +70,27 @@ var ViewModel = function(){
             animation: google.maps.Animation.DROP,
             id: locaiton.id
         });
+
         self.markers.push(marker);
+
         bounds.extend(marker.position);
         map.fitBounds(bounds);
-       // showInfo(self.markers()[0],showWindow)//默认显示
-        self.currentIndex =ko.observable( showInfo(self.markers()[0],showWindow))//默认显示
+
+
         marker.addListener('click',(function(copylocation){
             return function(){
+
                 showInfo(this,showWindow)
                 checkAnimation(this)//调用设置动画函数,将目标制定为this 即当前点击的marker
             }
         })(location))
     }
+
+
+    
+
+
+
 
     //检查标记动画
     function checkAnimation(marker){
@@ -124,6 +137,36 @@ var ViewModel = function(){
     this.clickShowinfo = function (currentcoordinate) {
         self.currentIndex( showInfo(currentcoordinate,showWindow))
     }
+
+    //输入框筛选列表
+    self.filterList= ko.observable('');
+    self.filterfinalarray = ko.computed(function(){
+        return ko.utils.arrayFilter(self.markers(), function(marker) {
+            return marker.title.indexOf(self.filterList()) !== -1;
+        })
+
+    },self)
+
+
+    //隐藏marker 已经显示当前的输入框对应的marker
+    self.filterfinalarray.subscribe(function(){
+        var cpa = ko.utils.compareArrays(self.markers(), self.filterfinalarray());
+        ko.utils.arrayForEach(cpa,function(marker){
+            if(marker.status==='deleted'){
+                marker.value.setMap(null);
+            }else{
+                marker.value.setMap(map);
+            }
+        })
+
+    })
+
+
+
+
+
+
+
 
 
 

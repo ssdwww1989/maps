@@ -12,16 +12,17 @@
 <body>
 
 <div id="mapwarp">
+
   <div class="map_left_wrap">
       <h1 class="menus_title">Bart Locations</h1>
       <div class="menus_serach_bar">
-          <input type="text" placeholder="搜索标记的地点">
+          <input type="text" placeholder="搜索标记的地点" data-bind="textInput: filterList">
           <div class="search_btn">
             <button class="menus_serach_btn"></button>
           </div>
       </div>
 
-      <ul class="map_address" data-bind="foreach:markers">
+      <ul class="map_address" data-bind="foreach:filterfinalarray">
        <li data-bind="click: $parent.clickShowinfo">
            <span data-bind="text: title"></span>
            <span data-bind="text: formatted_address"></span>
