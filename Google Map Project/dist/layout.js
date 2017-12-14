@@ -125,6 +125,33 @@ var ViewModel = function(){
         self.currentIndex( showInfo(currentcoordinate,showWindow))
     }
 
+
+
+
+//计算高度
+    function  computedAltitude(computedobject,target,customheigth){
+        var objectheight = $(computedobject).height();
+        var setHeight = objectheight - customheigth;
+        $(target).height(setHeight)
+    }
+
+    computedAltitude("body","#create_map",50)
+
+    $(window).resize(function(){
+
+        computedAltitude("body","#create_map",50)
+    })
+//隐藏按钮
+    $(".menus_icon_Wrap").click(function(){
+        $("#mapwarp").toggleClass("hidemenu")//隐藏侧边栏
+        google.maps.event.trigger(map, "resize");//重置地图
+    })
+
+
+
+
+
+
 }
 
 
@@ -138,24 +165,4 @@ function creat_Map(){
 
 
 
-
-
-//计算高度
-function  computedAltitude(computedobject,target,customheigth){
-     var objectheight = $(computedobject).height();
-     var setHeight = objectheight - customheigth;
-     $(target).height(setHeight)
-}
-
-computedAltitude("body","#create_map",50)
-
-$(window).resize(function(){
-
-    computedAltitude("body","#create_map",50)
-})
-//隐藏按钮
-$(".menus_icon_Wrap").click(function(){
-    $("#mapwarp").toggleClass("hidemenu")//隐藏侧边栏
-    google.maps.event.trigger(map, "resize");//重置地图
-})
 

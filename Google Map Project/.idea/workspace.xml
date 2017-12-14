@@ -17,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+            <state relative-caret-position="168">
+              <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -27,8 +27,8 @@
       <file leaf-file-name="layout.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="68" column="34" lean-forward="true" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
+            <state relative-caret-position="528">
+              <caret line="158" column="51" lean-forward="true" selection-start-line="158" selection-start-column="2" selection-end-line="158" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -93,9 +93,9 @@
       <find>self.currentIndex</find>
       <find>showInfo</find>
       <find>.map_address li span</find>
-      <find>.map_address li</find>
       <find>animation: google.maps.Animation.DROP,</find>
       <find>showWindow</find>
+      <find>.map_address li</find>
     </findStrings>
     <replaceStrings>
       <replace>transition: .4s;</replace>
@@ -127,8 +127,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="344" />
-    <option name="y" value="67" />
+    <option name="x" value="43" />
+    <option name="y" value="53" />
     <option name="width" value="1574" />
     <option name="height" value="809" />
   </component>
@@ -226,15 +226,15 @@
       <option name="presentableId" value="Default" />
       <updated>1512711510196</updated>
       <workItem from="1512711511300" duration="11911000" />
-      <workItem from="1513218998635" duration="16742000" />
+      <workItem from="1513218998635" duration="17041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28653000" />
+    <option name="totallyTimeSpent" value="28952000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="344" y="67" width="1574" height="809" extended-state="0" />
+    <frame x="43" y="53" width="1574" height="809" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24968234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -325,14 +325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/googleMaps-master/googleMaps/js/map.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -341,10 +333,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dist/layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="68" column="34" lean-forward="true" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
+        <state relative-caret-position="528">
+          <caret line="158" column="51" lean-forward="true" selection-start-line="158" selection-start-column="2" selection-end-line="158" selection-end-column="51" />
           <folding />
         </state>
       </provider>
