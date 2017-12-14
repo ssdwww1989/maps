@@ -27,8 +27,8 @@
       <file leaf-file-name="layout.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="85" column="30" lean-forward="false" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="30" />
+            <state relative-caret-position="211">
+              <caret line="77" column="70" lean-forward="false" selection-start-line="77" selection-start-column="70" selection-end-line="77" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -94,8 +94,8 @@
       <find>showInfo</find>
       <find>.map_address li span</find>
       <find>.map_address li</find>
-      <find>showWindow</find>
       <find>animation: google.maps.Animation.DROP,</find>
+      <find>showWindow</find>
     </findStrings>
     <replaceStrings>
       <replace>transition: .4s;</replace>
@@ -127,8 +127,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="321" />
-    <option name="y" value="113" />
+    <option name="x" value="344" />
+    <option name="y" value="67" />
     <option name="width" value="1574" />
     <option name="height" value="809" />
   </component>
@@ -226,15 +226,15 @@
       <option name="presentableId" value="Default" />
       <updated>1512711510196</updated>
       <workItem from="1512711511300" duration="11911000" />
-      <workItem from="1513218998635" duration="16079000" />
+      <workItem from="1513218998635" duration="16516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27990000" />
+    <option name="totallyTimeSpent" value="28427000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="321" y="113" width="1574" height="809" extended-state="0" />
+    <frame x="344" y="67" width="1574" height="809" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24968234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -343,8 +343,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="85" column="30" lean-forward="false" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="30" />
+        <state relative-caret-position="211">
+          <caret line="77" column="70" lean-forward="false" selection-start-line="77" selection-start-column="70" selection-end-line="77" selection-end-column="70" />
           <folding />
         </state>
       </provider>

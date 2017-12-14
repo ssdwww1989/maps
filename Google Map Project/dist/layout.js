@@ -75,7 +75,7 @@ var ViewModel = function(){
         marker.addListener('click',(function(copylocation){
             return function(){
                 showInfo(this,showWindow)
-                checkAnimation(this)
+                checkAnimation(this)//调用设置动画函数,将目标制定为this 即当前点击的marker
             }
         })(location))
     }
@@ -87,11 +87,15 @@ var ViewModel = function(){
                 marker.getAnimation(null)
         }else{
             marker.setAnimation(google.maps.Animation.BOUNCE);
+            setTimeout(function(){
+                marker.setAnimation(null)
+            },700)//700ss后   将动画设置为null
         }
     }
 
   //显示详细信息框
     function showInfo(marker,infowindow){//传入两个参数
+        checkAnimation(marker)//调用设置动画函数
         var innerHTML = '<div class="mapinfo">';
         if (marker.title) {
             innerHTML += '<strong>' + marker.title + '</strong>';
