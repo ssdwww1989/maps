@@ -66,7 +66,6 @@ var ViewModel = function(){
             animation: google.maps.Animation.DROP,
             id: locaiton.id
         });
-
         self.markers.push(marker);
         bounds.extend(marker.position);
         map.fitBounds(bounds);
@@ -81,7 +80,6 @@ var ViewModel = function(){
     }
 
     //检查标记动画
-
     function checkAnimation(marker){
         if(marker.getAnimation() !== null){
                 marker.getAnimation(null)
