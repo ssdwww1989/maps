@@ -20,6 +20,13 @@
             <button class="menus_serach_btn"></button>
           </div>
       </div>
+
+      <ul class="map_address" data-bind="foreach:markers">
+       <li data-bind="click: $parent.clickShowinfo">
+           <span data-bind="text: title"></span>
+           <span data-bind="text: formatted_address"></span>
+       </li>
+      </ul>
   </div>
     <div id="create_map_wrap">
         <div class="map_show_control_bar">

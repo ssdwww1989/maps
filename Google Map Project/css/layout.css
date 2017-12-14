@@ -78,14 +78,17 @@ html,body{
     width: 100%;
     overflow: hidden;
     background: #ffffff;
+    border-bottom: 1px solid #c7c7c7;
 }
 .menus_serach_bar input{
 
     border: 0px;
     float: left;
-    text-indent: 20px;
+    width: 190px;
+    font-size: 14px;
+
     height: 24px;
-    margin: 12px 15px;
+    margin: 12px 10px;
 }
 .menus_serach_btn{
     display: block;
@@ -113,4 +116,29 @@ html,body{
 .hidemenu #create_map_wrap{
     transition-delay: .4s;
     width: 100%
+}
+.map_address{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #ffffff;
+}
+.map_address li{
+    height: auto;
+    cursor: pointer;
+    font-size: 14px;
+    color: #212121;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 10px;
+}
+.map_address li span{
+    display: inline-block;
+    width: 100%;
+}
+.map_address li span:first-child{
+    font-weight: bold;
+}
+.map_address li span:last-child{
+    font-size: 12px;
+    color: #636363;
 }
