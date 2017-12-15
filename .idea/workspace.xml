@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d193fe5-1ce7-45d8-934e-8495fe3523bd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Google Map Project/dist/layout.js" afterPath="$PROJECT_DIR$/Google Map Project/dist/layout.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Google Map Project/dist/search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Google Map Project/ll.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Google Map Project/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test22.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test55.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Google Map Project/css/layout.css" afterPath="$PROJECT_DIR$/Google Map Project/css/layout.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Google Map Project/index.html" afterPath="$PROJECT_DIR$/Google Map Project/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -38,11 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Google Map Project/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+            <state relative-caret-position="376">
+              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -51,72 +56,22 @@
       <file leaf-file-name="layout.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Google Map Project/css/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="86" column="17" lean-forward="false" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+            <state relative-caret-position="76">
+              <caret line="70" column="20" lean-forward="true" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="layout.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Google Map Project/dist/layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="104" column="5" lean-forward="false" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+            <state relative-caret-position="246">
+              <caret line="99" column="30" lean-forward="true" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
               <folding>
                 <marker date="1513318718000" expanded="true" signature="4783:4789" ph=" " />
                 <marker date="1513318718000" expanded="true" signature="4789:4795" ph=" " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ll.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Google Map Project/ll.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Google Map Project/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test22.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test22.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10170">
-              <caret line="678" column="134" lean-forward="false" selection-start-line="678" selection-start-column="95" selection-end-line="678" selection-end-column="134" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test55.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test55.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="9" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="32" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test4.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test4.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="68" column="49" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="49" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -132,8 +87,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.menus_serach_btn</find>
-      <find>.menus_title</find>
       <find>input</find>
       <find>markers</find>
       <find>new google.maps.InfoWindow()</find>
@@ -162,6 +115,8 @@
       <find>gdWeather</find>
       <find>conso</find>
       <find>getWearther</find>
+      <find>menus_serach_btn</find>
+      <find>.menus_serach_bar input</find>
     </findStrings>
     <replaceStrings>
       <replace>250px</replace>
@@ -173,14 +128,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Google Map Project/css/layout.css" />
         <option value="$PROJECT_DIR$/Google Map Project/test.html" />
         <option value="$PROJECT_DIR$/test22.html" />
         <option value="$PROJECT_DIR$/test4.html" />
         <option value="$PROJECT_DIR$/test55.html" />
-        <option value="$PROJECT_DIR$/Google Map Project/index.html" />
         <option value="$USER_HOME$/Downloads/frontend-nanodegree-neighborhood-map-master/js/app.js" />
         <option value="$PROJECT_DIR$/Google Map Project/dist/layout.js" />
+        <option value="$PROJECT_DIR$/Google Map Project/index.html" />
+        <option value="$PROJECT_DIR$/Google Map Project/css/layout.css" />
       </list>
     </option>
   </component>
@@ -230,18 +185,6 @@
               <item name="maps" type="462c0819:PsiDirectoryNode" />
               <item name="Google Map Project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="maps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maps" type="462c0819:PsiDirectoryNode" />
-              <item name="Google Map Project" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maps" type="462c0819:PsiDirectoryNode" />
-              <item name="Google Map Project" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -284,18 +227,17 @@
       <workItem from="1513167947060" duration="10554000" />
       <workItem from="1513242465306" duration="67000" />
       <workItem from="1513255407822" duration="9196000" />
-      <workItem from="1513302215011" duration="9138000" />
+      <workItem from="1513302215011" duration="9390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56049000" />
+    <option name="totallyTimeSpent" value="56301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="421" y="36" width="1446" height="916" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20193638" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20193638" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -649,22 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Google Map Project/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Google Map Project/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="86" column="17" lean-forward="false" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/frontend-nanodegree-neighborhood-map-master/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
@@ -675,12 +601,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Google Map Project/dist/layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="104" column="5" lean-forward="false" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+        <state relative-caret-position="246">
+          <caret line="99" column="30" lean-forward="true" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
           <folding>
             <marker date="1513318718000" expanded="true" signature="4783:4789" ph=" " />
             <marker date="1513318718000" expanded="true" signature="4789:4795" ph=" " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google Map Project/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="70" column="20" lean-forward="true" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google Map Project/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
