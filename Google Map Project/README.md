@@ -1,27 +1,16 @@
 
-![](https://github.com/ssdwww1989/cardgame/blob/master/img/Gamelogo.png)
-
->记忆翻牌游戏
+>Google map项目
 ---------------------
-[![Scrutinizer Build](https://img.shields.io/scrutinizer/build/g/filp/whoops.svg)]()
 
-该项目为优达学城P1项目，其中包含 随机翻牌，点开两张卡片并且对比两张卡片否一致，如果不一致则翻转，如果一致则保留，当所有卡片均匹配上的时候 跳转到胜利页面等功能！！该项目目前还有很多有待优化的地方，只是勉强实现了基本运行功能，后期我会逐步迭代
 
-[项目首页](https://ssdwww1989.github.io/cardgame/index.html)
+该项目为优达学城P5项目，其中包含筛选地址列表，地图内显示相应的筛选点， 显示筛选点详细信息，以及天气等功能
+
 
 * [Instructions](#instructions)
 * [Contributing](#contributing)
 
-## Instructions
+## 项目介绍
+该项目使用了高德地图的天气api,高德地图的geocode api,以及谷歌地图
+默认展示6个标记点，用户可在左侧列表栏点击名称，地图内会显示相对应的标记点。点击标记点会显示出该地点的详细信息，该片区的天气预报，以及照片，如果没有照片则提示“没有照片”
+同样也可以通过左侧的搜索栏筛选列表
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
