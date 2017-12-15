@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d193fe5-1ce7-45d8-934e-8495fe3523bd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Google Map Project/css/layout.css" afterPath="$PROJECT_DIR$/Google Map Project/css/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Google Map Project/dist/layout.js" afterPath="$PROJECT_DIR$/Google Map Project/dist/layout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Google Map Project/index.html" afterPath="$PROJECT_DIR$/Google Map Project/index.html" />
-    </list>
+    <list default="true" id="2d193fe5-1ce7-45d8-934e-8495fe3523bd" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -39,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="layout.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Google Map Project/dist/layout.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1564">
@@ -48,6 +43,16 @@
                 <marker date="1513323901000" expanded="true" signature="4662:4668" ph=" " />
                 <marker date="1513323901000" expanded="true" signature="4668:4674" ph=" " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Google Map Project/README.md.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,9 +95,9 @@
       <find>wikiUrl</find>
       <find>show</find>
       <find>hide</find>
-      <find>resi</find>
       <find>menus_serach_btn</find>
       <find>hidemenu</find>
+      <find>resi</find>
     </findStrings>
     <replaceStrings>
       <replace>250px</replace>
@@ -112,6 +117,7 @@
         <option value="$PROJECT_DIR$/Google Map Project/index.html" />
         <option value="$PROJECT_DIR$/Google Map Project/css/layout.css" />
         <option value="$PROJECT_DIR$/Google Map Project/dist/layout.js" />
+        <option value="$PROJECT_DIR$/Google Map Project/README.md.html" />
       </list>
     </option>
   </component>
@@ -128,7 +134,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="440" />
     <option name="y" value="48" />
     <option name="width" value="1446" />
@@ -209,15 +215,15 @@
       <workItem from="1513167947060" duration="10554000" />
       <workItem from="1513242465306" duration="67000" />
       <workItem from="1513255407822" duration="9196000" />
-      <workItem from="1513302215011" duration="14298000" />
+      <workItem from="1513302215011" duration="14756000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61209000" />
+    <option name="totallyTimeSpent" value="61667000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="440" y="48" width="1446" height="916" extended-state="0" />
+    <frame x="440" y="48" width="1446" height="916" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20193638" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -606,6 +612,14 @@
             <marker date="1513323901000" expanded="true" signature="4662:4668" ph=" " />
             <marker date="1513323901000" expanded="true" signature="4668:4674" ph=" " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google Map Project/README.md.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
