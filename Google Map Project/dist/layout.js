@@ -6,6 +6,8 @@
 
 var ViewModel = function(){
 
+
+
     //高德地图geocode api
     var gdMap = 'http://restapi.amap.com/v3/geocode/geo?&city=北京&key=37fe56f89edb88d02282dd85b6f6ccd5&address='
     //高德地图weather api
@@ -189,7 +191,22 @@ var ViewModel = function(){
         google.maps.event.trigger(map, "resize");//重置地图
 
     })
+
+    //谷歌地图加载失败的处理
+    window.gm_authFailure = function() {
+        alert('谷歌地图加载失败!');
+    }
+
+    <!--两种不同的错误处理方式，以下注释掉的为第二种处理方式-->
+  /*  function mapErrorHandler(){
+        alert('谷歌地图加载失败!');
+    }*/
+
+
+
 }
 function creat_Map(){
+
     ko.applyBindings(new ViewModel())
 }
+

@@ -1,18 +1,66 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
 
-*{ margin: 0; padding: 0}
-html,body{
+fieldset, img,input,button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+    color: #666;
+    background: #fff
+}
+
+html,body {
     height: 100%;
     overflow: hidden;
 }
-#mapwarp{
+
+#mapwarp {
     width: 100%;
     height: 100%;
     position: relative;
     transition: .4s;
     display: flex;
 }
-#create_map_wrap{
 
+#create_map_wrap {
     transition: .4s;
     bottom: 0px;
     height: 100%;
@@ -20,26 +68,29 @@ html,body{
     position: absolute;
     right: 0px;
 }
-#create_map_wrap #create_map{
+
+#create_map_wrap #create_map {
     width: 100%;
     float: left;
-
     height: 90%;
 }
-.map_show_control_bar{
+
+.map_show_control_bar {
     height: 50px;
     background: #212121;
     width: 100%;
     position: relative;
 }
-.map_left_wrap{
+
+.map_left_wrap {
     transition: .4s;
     background: #000000;
     color: #ffffff;
     height: 100%;
     width: 250px;
 }
-.menus_icon_Wrap{
+
+.menus_icon_Wrap {
     width: 25px;
     height: 30px;
     top: 50%;
@@ -48,13 +99,15 @@ html,body{
     position: absolute;
     cursor: pointer;
 }
-.menus_icon_Wrap span{
+
+.menus_icon_Wrap span {
     width: 100%;
     display: inline-block;
     height: 2px;
     background: #ffffff;
 }
-.menus_icon_Wrap span:after,.menus_icon_Wrap span:before{
+
+.menus_icon_Wrap span:after,.menus_icon_Wrap span:before {
     content: '';
     position: absolute;
     width: 100%;
@@ -62,69 +115,72 @@ html,body{
     top: 5px;
     background: #ffffff;
 }
-.menus_icon_Wrap span:before{
+
+.menus_icon_Wrap span:before {
     top: auto;
     bottom: 4px;
 }
-.menus_title{
+
+.menus_title {
     height: 50px;
     font-size: 20px;
     text-align: left;
     text-indent: 35px;
     line-height: 50px;
-
 }
-.menus_serach_bar{
+
+.menus_serach_bar {
     width: 100%;
     overflow: hidden;
     background: #ffffff;
     border-bottom: 1px solid #c7c7c7;
 }
-.menus_serach_bar input{
 
+.menus_serach_bar input {
     border: 0px;
     float: left;
     width: 230px;
     font-size: 14px;
-
     height: 24px;
     margin: 12px 10px;
 }
-.menus_serach_btn{
+
+.menus_serach_btn {
     display: block;
     float: left;
     border: 0px;
     margin: 12px 5px;
-
-
-
     width: 24px;
     height: 24px;
     background: url(../images/search.png);
     background-size: 72px 24px;
 }
+
 #pano {
     width: 200px;
     height: 200px;
 }
-.search_btn{
 
+.search_btn {
 }
-.hidemenu{
+
+.hidemenu {
     transform: translate(0px) !important;
 }
 
-.hidemenu #create_map_wrap{
+.hidemenu #create_map_wrap {
     transition-delay: .4s;
     width: 100%
 }
-.map_address{
+
+.map_address {
     width: 100%;
     height: auto;
     overflow: hidden;
     background: #ffffff;
 }
-.map_address li{
+
+.map_address li {
     height: auto;
     cursor: pointer;
     font-size: 14px;
@@ -132,33 +188,37 @@ html,body{
     border-bottom: 1px solid #dcdcdc;
     padding: 10px;
 }
-.map_address li span{
+
+.map_address li span {
     display: inline-block;
     width: 100%;
 }
-.map_address li span:first-child{
+
+.map_address li span:first-child {
     font-weight: bold;
 }
-.map_address li span:last-child{
+
+.map_address li span:last-child {
     font-size: 12px;
     color: #636363;
 }
 
-
 @media only screen and (max-width: 600px) {
-    #mapwarp{
+    #mapwarp {
         transform: translate(-250px);
     }
-    #create_map_wrap{
+
+    #create_map_wrap {
         width: 100%;
     }
 }
 
 @media only screen and (min-width: 601px) {
-    #mapwarp{
+    #mapwarp {
         transform: translate(0px);
     }
-    .hidemenu{
+
+    .hidemenu {
         transform: translate(-250px) !important;
     }
 }
