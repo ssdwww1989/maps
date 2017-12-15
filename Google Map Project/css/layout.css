@@ -111,8 +111,9 @@ html,body{
 
 }
 .hidemenu{
-    transform: translate(-250px);
+    transform: translate(0px) !important;
 }
+
 .hidemenu #create_map_wrap{
     transition-delay: .4s;
     width: 100%
@@ -141,4 +142,23 @@ html,body{
 .map_address li span:last-child{
     font-size: 12px;
     color: #636363;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #mapwarp{
+        transform: translate(-250px);
+    }
+    #create_map_wrap{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    #mapwarp{
+        transform: translate(0px);
+    }
+    .hidemenu{
+        transform: translate(-250px) !important;
+    }
 }

@@ -1,32 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Title</title>
-   <!-- <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/base-min.css">-->
-    <link rel="stylesheet" href="css/layout.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/base-min.css">-->
+    <link rel="stylesheet" href="css/layout.css" />
     <script type="text/javascript" src="dist/jquery-3.2.1.min.js"></script>
-
-
 </head>
 <body>
-
-<div id="mapwarp">
-
-  <div class="map_left_wrap">
-      <h1 class="menus_title">Bart Locations</h1>
-      <div class="menus_serach_bar">
-          <input type="text" placeholder="搜索标记的地点" data-bind="textInput: filterList">
-
-      </div>
-
-      <ul class="map_address" data-bind="foreach:filterfinalarray">
-       <li data-bind="click: $parent.clickShowinfo">
-           <span data-bind="text: title"></span>
-           <span data-bind="text: formatted_address"></span>
-       </li>
-      </ul>
-  </div>
+<div id="mapwarp" >
+    <div class="map_left_wrap">
+        <h1 class="menus_title">Bart Locations</h1>
+        <div class="menus_serach_bar">
+            <input type="text" placeholder="搜索标记的地点" data-bind="textInput: filterList" />
+        </div>
+        <ul class="map_address" data-bind="foreach:filterfinalarray">
+            <li data-bind="click: $parent.clickShowinfo"> <span data-bind="text: title"></span> <span data-bind="text: formatted_address"></span> </li>
+        </ul>
+    </div>
     <div id="create_map_wrap">
         <div class="map_show_control_bar">
             <div class="menus_icon_Wrap">
@@ -35,22 +26,11 @@
         </div>
         <div id="create_map"></div>
     </div>
-
-
-
-
-
 </div>
-
-
-
 <script type="text/javascript" src="dist/jquery-3.2.1.min.js"></script>
-<script async defer src="
-https://maps.googleapis.com/maps/api/js?libraries=places,geometry&key=AIzaSyBamE1YRktP6EMJDbR6Nl_WmRzG0OsHsMA&v=3&callback=creat_Map"></script>
-<script  src="dist/knockout-3.4.2.js"></script>
+<script async="" defer="" src="
+https://maps.googleapis.com/maps/api/js?libraries=places,geometry&amp;key=AIzaSyBamE1YRktP6EMJDbR6Nl_WmRzG0OsHsMA&amp;v=3&amp;callback=creat_Map"></script>
+<script src="dist/knockout-3.4.2.js"></script>
 <script type="text/javascript" src="dist/layout.js"></script>
 </body>
-
-
-
 </html>

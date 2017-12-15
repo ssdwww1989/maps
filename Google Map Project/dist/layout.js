@@ -10,15 +10,12 @@ var ViewModel = function(){
     var gdMap = 'http://restapi.amap.com/v3/geocode/geo?&city=北京&key=37fe56f89edb88d02282dd85b6f6ccd5&address='
     //高德地图weather api
     var gdWeather = 'http://restapi.amap.com/v3/weather/weatherInfo?&key=37fe56f89edb88d02282dd85b6f6ccd5&city='
-
     var map;
     var self = this;
-
     //新建数组
     self.markers =  ko.observableArray();
     //默认显示
     self.currentIndex =ko.observable('');
-
     var  center={lat: 39.9127929, lng: 116.3758218};
     //新建google 地图
     map = new google.maps.Map(document.getElementById('create_map'), {
@@ -34,7 +31,6 @@ var ViewModel = function(){
 
     });
 
-
 //定义标记点
     var favlocation = [
         {title: '世贸天阶', location: {lat: 39.916071, lng: 116.4530444}},
@@ -48,7 +44,6 @@ var ViewModel = function(){
 
     var showWindow = new google.maps.InfoWindow();//创建 InfoWindow实例
     var bounds = new google.maps.LatLngBounds();//创建 LatLngBounds 实例
-
 
     for(var i=0; i<favlocation.length;i++){//循环获取数组内信息，并且创建marker
         var location = favlocation[i];
@@ -74,7 +69,6 @@ var ViewModel = function(){
 
         })
     }
-
     //创建标记
     function createMaker(locaiton,weather){
         //新建标记
@@ -96,29 +90,27 @@ var ViewModel = function(){
         self.markers.push(marker);//推入数组
         bounds.extend(marker.position);
         map.fitBounds(bounds);
-        marker.addListener('click',(function(copylocation){
-            return function(){
-                showInfo(this,showWindow)
-                checkAnimation(this)//调用设置动画函数,将目标制定为this 即当前点击的marker
-            }
-        })(location))
+        marker.addListener('click',function(){
+            showInfo(this,showWindow)
+            checkAnimation(this)//调用设置动画函数,将目标制定为this 即当前点击的marker
+    })
     }
     //获取天气
     function getWearther(resu,adcode){
-            $.ajax({
-                url:gdWeather+adcode,
-                dataType: "JSON"
-            }).done(function(result){
-                createMaker(resu,result)
-            }).fail(function(){
-                alert("没有找到该位置的天气信息");
-            });
+        $.ajax({
+            url:gdWeather+adcode,
+            dataType: "JSON"
+        }).done(function(result){
+            createMaker(resu,result)
+        }).fail(function(){
+            alert("没有找到该位置的天气信息");
+        });
     }
 
     //检查标记动画
     function checkAnimation(marker){
         if(marker.getAnimation() !== null){
-                marker.getAnimation(null)
+            marker.getAnimation(null)
         }else{
             marker.setAnimation(google.maps.Animation.BOUNCE);
             setTimeout(function(){
@@ -127,7 +119,7 @@ var ViewModel = function(){
         }
     }
 
-  //显示详细信息框
+    //显示详细信息框
     function showInfo(marker,infowindow){//传入两个参数
         checkAnimation(marker)//调用设置动画函数
         var innerHTML = '<div class="mapinfo">';
@@ -154,17 +146,14 @@ var ViewModel = function(){
             infowindow.setContent(innerHTML);//创建标签,标签内容为marker.title
             infowindow.open(map,marker);//打开infowindow
             infowindow.addListener('closeclick',function(){//点击关闭按钮则关闭 infowindow
-                infowindow.setMarker(null)
+                infowindow.setMarker = null
             });
         }
-
     }
-
     //切换显示地区
     this.clickShowinfo = function (currentcoordinate) {
         self.currentIndex( showInfo(currentcoordinate,showWindow))
     }
-
     //输入框筛选列表
     self.filterList= ko.observable('');
     self.filterfinalarray = ko.computed(function(){
@@ -172,7 +161,6 @@ var ViewModel = function(){
             return marker.title.indexOf(self.filterList()) !== -1;
         })
     },self)
-
     //隐藏marker 已经显示当前的输入框对应的marker
     self.filterfinalarray.subscribe(function(){
         var cpa = ko.utils.compareArrays(self.markers(), self.filterfinalarray());
@@ -183,10 +171,7 @@ var ViewModel = function(){
                 marker.value.setMap(map);
             }
         })
-
     })
-
-
 //计算高度
     function  computedAltitude(computedobject,target,customheigth){
         var objectheight = $(computedobject).height();
@@ -196,22 +181,15 @@ var ViewModel = function(){
     computedAltitude("body","#create_map",50)
     $(window).resize(function(){
         computedAltitude("body","#create_map",50)
+        map.fitBounds(bounds);
     })
 //隐藏按钮
     $(".menus_icon_Wrap").click(function(){
         $("#mapwarp").toggleClass("hidemenu")//隐藏侧边栏
         google.maps.event.trigger(map, "resize");//重置地图
+
     })
-
 }
-
 function creat_Map(){
     ko.applyBindings(new ViewModel())
 }
-
-
-
-
-
-
-
