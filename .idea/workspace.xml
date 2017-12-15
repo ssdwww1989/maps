@@ -16,13 +16,33 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+              <entry file="file://$USER_HOME$/Downloads/frontend-nanodegree-neighborhood-map-master/js/app.js">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="588">
+                    <caret line="48" column="7" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="48" selection-end-column="7" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Google Map Project/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="167">
+              <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -31,7 +51,7 @@
       <file leaf-file-name="layout.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Google Map Project/css/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
+            <state relative-caret-position="15">
               <caret line="86" column="17" lean-forward="false" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
               <folding />
             </state>
@@ -41,8 +61,21 @@
       <file leaf-file-name="layout.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Google Map Project/dist/layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="89" column="4" lean-forward="false" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
+            <state relative-caret-position="321">
+              <caret line="104" column="5" lean-forward="false" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+              <folding>
+                <marker date="1513318718000" expanded="true" signature="4783:4789" ph=" " />
+                <marker date="1513318718000" expanded="true" signature="4789:4795" ph=" " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ll.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Google Map Project/ll.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -51,7 +84,7 @@
       <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Google Map Project/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
+            <state relative-caret-position="345">
               <caret line="23" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="7" />
               <folding />
             </state>
@@ -61,7 +94,7 @@
       <file leaf-file-name="test22.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test22.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
+            <state relative-caret-position="10170">
               <caret line="678" column="134" lean-forward="false" selection-start-line="678" selection-start-column="95" selection-end-line="678" selection-end-column="134" />
               <folding />
             </state>
@@ -71,8 +104,8 @@
       <file leaf-file-name="test55.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test55.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="32" column="9" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="480">
+              <caret line="32" column="9" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="32" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -81,7 +114,7 @@
       <file leaf-file-name="test4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
+            <state relative-caret-position="1020">
               <caret line="68" column="49" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="49" />
               <folding />
             </state>
@@ -99,11 +132,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>80%</find>
-      <find>controls</find>
-      <find>left</find>
-      <find>#create_map_wrap</find>
-      <find>200px</find>
       <find>.menus_serach_btn</find>
       <find>.menus_title</find>
       <find>input</find>
@@ -122,12 +150,18 @@
       <find>place</find>
       <find>addMarker</find>
       <find>callback</find>
-      <find>showinfo</find>
       <find>title</find>
       <find>showInfo</find>
       <find>self.currentIndex</find>
       <find>filterfinalarray</find>
       <find>self.markers</find>
+      <find>ajax</find>
+      <find>wikiUrl</find>
+      <find>showInfo</find>
+      <find>showinfo</find>
+      <find>gdWeather</find>
+      <find>conso</find>
+      <find>getWearther</find>
     </findStrings>
     <replaceStrings>
       <replace>250px</replace>
@@ -145,6 +179,7 @@
         <option value="$PROJECT_DIR$/test4.html" />
         <option value="$PROJECT_DIR$/test55.html" />
         <option value="$PROJECT_DIR$/Google Map Project/index.html" />
+        <option value="$USER_HOME$/Downloads/frontend-nanodegree-neighborhood-map-master/js/app.js" />
         <option value="$PROJECT_DIR$/Google Map Project/dist/layout.js" />
       </list>
     </option>
@@ -163,9 +198,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="291" />
-    <option name="y" value="21" />
-    <option name="width" value="1101" />
+    <option name="x" value="421" />
+    <option name="y" value="36" />
+    <option name="width" value="1446" />
     <option name="height" value="916" />
   </component>
   <component name="ProjectView">
@@ -183,7 +218,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,6 +246,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -249,25 +284,26 @@
       <workItem from="1513167947060" duration="10554000" />
       <workItem from="1513242465306" duration="67000" />
       <workItem from="1513255407822" duration="9196000" />
+      <workItem from="1513302215011" duration="9138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46911000" />
+    <option name="totallyTimeSpent" value="56049000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="291" y="21" width="1101" height="916" extended-state="0" />
+    <frame x="421" y="36" width="1446" height="916" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26543778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20193638" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -306,6 +342,65 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Google Map Project/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google Map Project/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="86" column="17" lean-forward="false" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google Map Project/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test22.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10170">
+          <caret line="678" column="134" lean-forward="false" selection-start-line="678" selection-start-column="95" selection-end-line="678" selection-end-column="134" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test55.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="32" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="49" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google Map Project/dist/layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="4" lean-forward="false" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
+          <folding>
+            <marker date="1513318718000" expanded="true" signature="4783:4789" ph=" " />
+            <marker date="1513318718000" expanded="true" signature="4789:4795" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Google Map Project/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -350,7 +445,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2086">
           <caret line="149" column="0" lean-forward="true" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1513318718000" expanded="true" signature="4783:4789" ph=" " />
+            <marker date="1513318718000" expanded="true" signature="4789:4795" ph=" " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -398,7 +496,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2415">
           <caret line="161" column="0" lean-forward="true" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1513318718000" expanded="true" signature="4783:4789" ph=" " />
+            <marker date="1513318718000" expanded="true" signature="4789:4795" ph=" " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -423,7 +524,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="854">
           <caret line="61" column="4" lean-forward="false" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
-          <folding />
+          <folding>
+            <marker date="1513318718000" expanded="true" signature="4783:4789" ph=" " />
+            <marker date="1513318718000" expanded="true" signature="4789:4795" ph=" " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -447,7 +551,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1498">
           <caret line="107" column="9" lean-forward="false" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
-          <folding />
+          <folding>
+            <marker date="1513318718000" expanded="true" signature="4783:4789" ph=" " />
+            <marker date="1513318718000" expanded="true" signature="4789:4795" ph=" " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -490,7 +597,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1610">
           <caret line="115" column="6" lean-forward="false" selection-start-line="115" selection-start-column="6" selection-end-line="115" selection-end-column="6" />
-          <folding />
+          <folding>
+            <marker date="1513318718000" expanded="true" signature="4783:4789" ph=" " />
+            <marker date="1513318718000" expanded="true" signature="4789:4795" ph=" " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -501,7 +611,7 @@
     <entry file="file://$USER_HOME$/Downloads/udacity-map-master/udacity-map-master/index.html" />
     <entry file="file://$PROJECT_DIR$/Google Map Project/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
+        <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="7" />
           <folding />
         </state>
@@ -509,7 +619,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
+        <state relative-caret-position="1020">
           <caret line="68" column="49" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="49" />
           <folding />
         </state>
@@ -517,41 +627,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test55.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="32" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Google Map Project/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="86" column="17" lean-forward="false" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+        <state relative-caret-position="480">
+          <caret line="32" column="9" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="32" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test22.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
+        <state relative-caret-position="10170">
           <caret line="678" column="134" lean-forward="false" selection-start-line="678" selection-start-column="95" selection-end-line="678" selection-end-column="134" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google Map Project/ll.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Google Map Project/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="167">
+          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google Map Project/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="86" column="17" lean-forward="false" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/frontend-nanodegree-neighborhood-map-master/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="48" column="7" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="48" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Google Map Project/dist/layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="89" column="4" lean-forward="false" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="321">
+          <caret line="104" column="5" lean-forward="false" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+          <folding>
+            <marker date="1513318718000" expanded="true" signature="4783:4789" ph=" " />
+            <marker date="1513318718000" expanded="true" signature="4789:4795" ph=" " />
+          </folding>
         </state>
       </provider>
     </entry>
