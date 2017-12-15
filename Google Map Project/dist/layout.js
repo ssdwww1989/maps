@@ -197,7 +197,7 @@ var ViewModel = function(){
         alert('谷歌地图加载失败!');
     }
 
-    <!--两种不同的错误处理方式，以下注释掉的为第二种处理方式-->
+    //两种不同的错误处理方式，以下注释掉的为第二种处理方式
   /*  function mapErrorHandler(){
         alert('谷歌地图加载失败!');
     }*/
